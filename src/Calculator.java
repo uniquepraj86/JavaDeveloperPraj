@@ -12,6 +12,8 @@ public class Calculator {
         int res;
         switch(sym)
         {
+
+
             case"+": res=no1+no2;
                 System.out.println("Addition is:"+res);
                 break;
