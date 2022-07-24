@@ -1,6 +1,6 @@
 package oops.object;
 
-public class Animal {
+public class animal {
     public void eat()
     {
         System.out.println("I am eating");
@@ -8,10 +8,10 @@ public class Animal {
     public static void main(String[] args)
     {
         System.out.println("cat");
-        Animal cat =new Animal();
+        animal cat =new animal();
         cat.eat();
         cat.run();
-        System.out.println("sparrow");
+        System.out.println("Sparrow");
         Birds sp=new Birds();
          sp.fly();
     }
@@ -24,6 +24,6 @@ class Birds
 {
     void fly()
     {
-        System.out.println("I am fly");
+        System.out.println("Sparrow:- I am fly");
     }
 }
