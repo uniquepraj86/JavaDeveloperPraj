@@ -1,4 +1,6 @@
+
 package controlflowstmt;
+
 import java.util.Scanner;
 
 public class Table1 { public static void main(String[] args) {
