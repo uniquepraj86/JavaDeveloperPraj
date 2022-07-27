@@ -1,4 +1,4 @@
-package basic;
+package controlflowstmt;
 
 public class While {
     public static void main(String[] args) {

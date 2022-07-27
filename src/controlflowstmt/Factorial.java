@@ -1,5 +1,5 @@
-package basic;
-import java.util.Scanner;
+package controlflowstmt;
+
 public class Factorial {
     public static void main(String[] args)
     {

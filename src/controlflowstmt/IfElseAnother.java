@@ -1,4 +1,4 @@
-package basic;
+package controlflowstmt;
 
 public class IfElseAnother {
     public static void main(String[] args) {
