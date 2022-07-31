@@ -16,11 +16,7 @@ public class FirstUseA
 
     public static void main(String[] args)
     {
-        B ob=new B();
-        ob.show(30
-
-
-
-        );
+//        b ob=new b();
+//        ob.show(30);
     }
 }
