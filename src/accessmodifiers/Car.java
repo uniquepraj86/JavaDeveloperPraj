@@ -1,12 +1,10 @@
 package accessmodifiers;
 
-import accessmodifiers.defaultex.Bike;
 
+import accessmodifiers.defaultex.Bike;
 /**
  * private example
  */
-
-
 public class Car {
     private String segment;
     private String variant;
@@ -24,7 +22,10 @@ public class Car {
 class CarImpl extends Bike {
     public static void main(String[] args) {
         CarImpl car = new CarImpl();
+
          car.model = "RS15";
+//        car.model = "RS15";
+
         // bike.name = ""; //default access modifier error
 
         //compile time error
