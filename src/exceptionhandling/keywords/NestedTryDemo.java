@@ -1,4 +1,4 @@
-package exceptionhandling;
+package exceptionhandling.keywords;
 
 import java.util.Locale;
 
