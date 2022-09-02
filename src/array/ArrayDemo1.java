@@ -4,7 +4,7 @@ public class ArrayDemo1 {
     public static void main(String[] args) {
         int[] a1;//initialisation
         a1 = new int[10]; //instantiation
-        //initialization
+
         a1[0] = 10;
         a1[1] = 20;
         a1[2] = 30;
