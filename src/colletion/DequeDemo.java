@@ -8,7 +8,7 @@ public class DequeDemo {
         // Deque<String> cities = new LinkedList<>();
         Deque<String> cities = new ArrayDeque<>();
         cities.addFirst("Pune");
-        cities.addFirst("Mumbai");
+        cities.addLast("Mumbai");
         cities.offerFirst("Ooty");
         cities.offerLast("Nagpur");
         cities.addLast("Kolkata");
