@@ -5,21 +5,34 @@ Types of polymorphism:
 
 poly -> many
 morph -> forms
+
 eg. 1. water - solid -ice, liquid -water, gas -vapour
     2. sound - dog -bark, lion -roar, cat -meow
 
 Note: Runtime polymorphism can't achieved by data members
 
 
- Method Overloading      Method Overriding
- 1. same name            1. same name
- 2. same class           2. diff class
- 3. no. of args          3. same no. of args,must have same parameters,return type must be same
- 4. diff data types      4. when two classes have is-a relationship(inheritance)
+ Method Overloading            Method Overriding
+ 1. same name                    1. same name
+ 2. same class                   2. diff class
+ 3. diff no. of args             3. same no. of args,must have same parameters,return type must be same
+ 4. diff data types              4. when two classes have is-a relationship(inheritance)
 
  class A{
  void show(String n){}
  }
  class B extends A{
+
  void show(String n){}
  }
+
+ polymorphism - the ability to take one form tomany forms.
+ Methodolodding- same name but different number of arguments.
+
+
+ rules-
+ 1) changing no of arguments
+ 2) changing the function datatype
+
+
+Methodoverridding - same name but different class.
