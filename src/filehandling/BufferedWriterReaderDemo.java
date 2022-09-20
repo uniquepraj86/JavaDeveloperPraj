@@ -1,5 +1,9 @@
 package filehandling;
 
+import com.itextpdf.text.pdf.PdfReader;
+import com.itextpdf.text.pdf.PdfWriter;
+import com.itextpdf.text.pdf.parser.PdfTextExtractor;
+
 import java.io.*;
 
 public class BufferedWriterReaderDemo {
@@ -11,14 +15,9 @@ public class BufferedWriterReaderDemo {
         bufferedWriter.close();
         fileWriter.close();
 
-        FileReader fileReader = new FileReader(path);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-        int i = bufferedReader.read();
-        while (i>0){
-            System.out.print((char) i);
-            i = bufferedReader.read();
-        }
-        bufferedReader.close();
-        fileReader.close();
+
+
+
+
     }
 }
