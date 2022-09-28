@@ -13,7 +13,7 @@ public abstract class Vehicle
     }
 
     abstract void start(); //abstract method with no method body
-    void display(){ //non-abstract method or concrete method
+    void display() { //non-abstract method or concrete method
         System.out.println("in display");
     }
 }
