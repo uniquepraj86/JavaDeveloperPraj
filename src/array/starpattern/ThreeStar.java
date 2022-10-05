@@ -2,7 +2,7 @@ package array.starpattern;
 
 import java.util.Scanner;
 
-public class ThreeStar {
+public class ThreeStar{
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
