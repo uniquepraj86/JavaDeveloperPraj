@@ -5,7 +5,7 @@ import java.util.List;
 public interface Shape {
 
  void calculateArea(int radius);
-// void  calculatePerimetre();
+// void  calculatePerimeter();
 
 
 
