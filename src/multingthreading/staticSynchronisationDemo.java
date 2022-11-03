@@ -22,8 +22,9 @@ class CounterOneThread extends Thread {
 
     @Override
     public void run() {
+
         Counter.printTable(4);
-        System.out.println(" *********************");
+               System.out.println(" *********************");
     }
 }
 
@@ -39,6 +40,7 @@ class CounterTwoThread extends Thread {
     public void run() {
         Counter.printTable(5);
         System.out.println("***********************************");
+
     }
 }
 

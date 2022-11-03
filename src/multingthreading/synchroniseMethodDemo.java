@@ -17,19 +17,18 @@ class Table {
     }
 }
 
-class ThreadTableOne extends Thread{
+class ThreadTableOne extends Thread {
     Table table;
-
-
-
     int no;
-    ThreadTableOne (Table table,int no){
+
+    ThreadTableOne(Table table, int no) {
         this.table = table;
         this.no = no;
     }
+
     @Override
-    public void run(){
-       table.printTable(no);
+    public void run() {
+        table.printTable(no);
     }
 }
 
@@ -38,10 +37,10 @@ public class synchroniseMethodDemo {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter first number");
         int no1 = sc.nextInt();
-        System.out.println("Enter Second Number");
-        int n02 = sc.nextInt();
-        Table table  = new Table();
-        ThreadTableOne t1 = new ThreadTableOne(table,no1);
+//        System.out.println("Enter Second Number");
+//        int n02 = sc.nextInt();
+        Table table = new Table();
+        ThreadTableOne t1 = new ThreadTableOne(table, no1);
 
         t1.start();
 

@@ -5,7 +5,7 @@ public class Employee {
     String empName;
     static String companyName;
     static void show(){
-//        empName = "Ajay";
+//       empName = "Ajay";
         companyName = "codekul";
     }
     void display(){

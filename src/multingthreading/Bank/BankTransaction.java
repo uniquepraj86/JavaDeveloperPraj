@@ -52,13 +52,13 @@ class TransactionImpl {
         System.out.println("Enter WithDrawl Amount");
         int withdraw = sc.nextInt();
         System.out.println("Enter Deposit Amount");
-        int deposite = sc.nextInt();
+        int deposit = sc.nextInt();
 
         BankTransaction bankTransaction = new BankTransaction();
         UserOne t1 = new UserOne(bankTransaction, withdraw);
         t1.start();
         t1.join();
-        UserTwo t2 = new UserTwo(bankTransaction,deposite);
+        UserTwo t2 = new UserTwo(bankTransaction,deposit);
 
         t2.start();
     }

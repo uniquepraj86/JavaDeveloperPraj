@@ -7,7 +7,8 @@ public class RunMethodDemo extends Thread {
      for (int i=0;i<5;i++){
          try{
              Thread.sleep(1000L);
-             System.out.println(Thread.currentThread().getName()+" "+i);
+             System.out.println("hi");
+//             System.out.println(Thread.currentThread().getName()+" "+i);
          } catch (InterruptedException e) {
              throw new RuntimeException(e);
          }

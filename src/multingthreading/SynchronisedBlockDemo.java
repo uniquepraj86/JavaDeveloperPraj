@@ -6,7 +6,7 @@ import java.util.Scanner;
 class Table1{
     void printTable(int no){
         System.out.println(Thread.currentThread().getName());
-        System.out.println("Welcome");
+//        System.out.println("Welcome");
         System.out.println("Welcome");
 
         synchronized (this){
@@ -21,8 +21,8 @@ class Table1{
         }
 
             System.out.println("welcome");
-            System.out.println("welcome");
-            System.out.println("welcome");
+//            System.out.println("welcome");
+//            System.out.println("welcome");
     }
 
 }

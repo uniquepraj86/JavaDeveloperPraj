@@ -37,21 +37,12 @@ public class Employee {
             System.out.println("Department: "+department);
         }
 
-//    public int getId() {
-//        return id;
-//    }
 
         public int getSalary() {
             return salary;
         }
 
-//    public String getName() {
-//        return name;
-//    }
 
-//    public String getDepartment() {
-//        return department;
-//    }
     }
     class Manager extends Employee{
         private int bonus;

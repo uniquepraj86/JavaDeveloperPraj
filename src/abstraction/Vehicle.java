@@ -1,35 +1,40 @@
 package abstraction;
 
-public abstract class Vehicle
-{
-    Vehicle(){
+public abstract class Vehicle {
+    Vehicle() {
         System.out.println("Vehicle is created");
     }
-    static void show(){
+
+    static void show() {
         System.out.println("in static method");
     }
-    final void stop(){
+
+    final void stop() {
         System.out.println("in final method");
     }
 
     abstract void start(); //abstract method with no method body
+
     void display() { //non-abstract method or concrete method
         System.out.println("in display");
     }
 }
-class Car extends Vehicle{
+
+class Car extends Vehicle {
     @Override
     void start() {
         System.out.println("start with key...");
     }
 }
-class Bike extends Vehicle{
+
+class Bike extends Vehicle {
     @Override
     void start() {
         System.out.println("start with button...");
     }
 }
-class VehicleImpl{
+
+class VehicleImpl {
     public static void main(String[] args) {
         Vehicle.show();
         Vehicle vehicle;//reference object
