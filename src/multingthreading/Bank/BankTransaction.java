@@ -10,7 +10,7 @@ public class BankTransaction {
             throw new InsufficientBalance("Insufficient balance ");
         } else {
             totalAmount = totalAmount - amount;
-            return totalAmount;
+            return totalAmount ;
         }
     }
 
