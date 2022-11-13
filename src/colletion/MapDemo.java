@@ -12,13 +12,13 @@ public class MapDemo {
         map.put(3,"ruth");
         map.put(4,"pranali");
         System.out.println(map);
-        map.put(null,null);
-        System.out.println(map);
-        map.put(1,null);
-        System.out.println(map);
-        map.put(null,"praj");
-        System.out.println(map);
-        System.out.println(map.get(5));
+//        map.put(null,null);
+//        System.out.println(map);
+//        map.put(1,null);
+//        System.out.println(map);
+//        map.put(null,"praj");
+//        System.out.println(map);
+//        System.out.println(map.get(5));
         Iterator iterator = map.entrySet().iterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());

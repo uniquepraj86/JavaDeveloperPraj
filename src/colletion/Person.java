@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Person implements Comparable<Person>
     {
-        private String name;
-        private Integer id;
-        private Integer age;
+         String name;
+         Integer id;
+         Integer age;
 
         public Person (String name,Integer id,Integer age){
             this.name = name;
