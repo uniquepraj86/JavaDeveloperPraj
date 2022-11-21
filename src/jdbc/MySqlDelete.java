@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class MySqlDelete {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        String url = "jdbc:mysql://localhost:3306/emp";
+        String url = "jdbc:mysql://localhost:3306/mydb";
         String username = "root";
         String password = "Prajkta86@";
         final String QUERY = "delete from emp where empno=?";

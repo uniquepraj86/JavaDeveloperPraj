@@ -1,6 +1,6 @@
 package java8;
 
-public interface Message {
+public interface Message{
     void SendMsg();
     default void SendPicture(){
         System.out.println("Send Picture");
@@ -9,7 +9,6 @@ public interface Message {
 }
 
 class SendMessage implements Message{
-
     @Override
     public void SendMsg() {
         System.out.println("Send Message");
