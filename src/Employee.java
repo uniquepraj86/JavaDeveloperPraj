@@ -1,8 +1,6 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
-// object representation
 public class Employee {
 
     private  String name;

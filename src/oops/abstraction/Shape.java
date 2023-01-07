@@ -15,6 +15,7 @@ class Rectangle extends Shape{
         this.breath = breath;
         this.height = height;
     }
+
     @Override
     double calculateArea() {
         return breath*height;

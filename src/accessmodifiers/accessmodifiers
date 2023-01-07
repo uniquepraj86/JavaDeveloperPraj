@@ -1,4 +1,5 @@
-- specifies the accessibility(scope) of methods, fields,classes or constructor
+
+  - specifies the accessibility(scope) of methods, fields,classes or constructor
 
 Types of modifiers
 1. Access modifiers

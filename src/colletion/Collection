@@ -1,4 +1,4 @@
-Generics
++Generics
  - allow us to create a single class,interface & method that can be used with different
     data types
  - parametrised type
@@ -28,8 +28,6 @@ Generics
 	- elements are added to the top of the stack & removed from top of the stack
 	- extends Vector class
 	-lefo-last in first out
-
-
 	 list and arraylist
 	 hash set and
 5. LinkedList(C)

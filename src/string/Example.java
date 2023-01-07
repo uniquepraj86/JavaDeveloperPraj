@@ -2,8 +2,6 @@ package string;
 
 public class Example {
 
-
-    public class StringMethods {
         public static void main(String[] args) {
             String str = "Why rain brings Delhi to knees in a few hours: Waterbodies in disrepair, lack of local drains";
             System.out.println("Upper Case: "+str.toUpperCase());
@@ -15,6 +13,6 @@ public class Example {
             System.out.println("Contains "+str.contains("brings"));
             System.out.println(str);
             
-        }
+
     }
 }

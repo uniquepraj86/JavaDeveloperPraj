@@ -27,6 +27,8 @@ class RBIImpl{
         System.out.println(rbi.getRateOfInterest());
         rbi = new HDFC();
         System.out.println(rbi.getRateOfInterest());
+        rbi = new SBI();
+        System.out.println(rbi.getRateOfInterest());
 
     }
 }

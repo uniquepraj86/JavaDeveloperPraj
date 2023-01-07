@@ -20,10 +20,10 @@ Explain OOP concept?
 	- Cat
 		state : color,name,breed
 		behaviour : running,eating,meow
-	  Car
+	    Car
 	    state : color,model,name,wheel,gearNo,speed
 	    behaviour : run
-	  Mobile
+	    Mobile
 	    state : model,color,name
 	    behaviour : calling,ringing,messaging,take pic
 
@@ -58,5 +58,5 @@ Explain OOP concept?
 	- binding or wrapping code & data together into a single unit
 	- eg Capsule, wrapped with different medicines
 
-Explain PIE?
+7.Explain PIE?
 - Polymorphism,Inheritance,Encapsulation

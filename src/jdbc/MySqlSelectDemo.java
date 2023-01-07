@@ -3,10 +3,10 @@ import java.sql.*;
 
 public class MySqlSelectDemo {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        String url = "jdbc:mysql://localhost:3306/emp";
+        String url = "jdbc:mysql://localhost:3306/employee";
         String username = "root";
         String password = "Prajkta86@";
-        final String SELECT_QUERY = "select * from emp;";
+        final String SELECT_QUERY = "select * from employee;";
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         Connection con = DriverManager.getConnection(url,username,password);

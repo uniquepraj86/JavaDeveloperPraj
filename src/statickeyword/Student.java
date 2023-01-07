@@ -26,7 +26,7 @@ class StudentImpl
             Student s3=new Student();
             s3.rno =3;
             s3.name="Meera";
-            Student.schoolName="JJ";
+            Student.schoolName="Jj";
 
 
             s1.display();
