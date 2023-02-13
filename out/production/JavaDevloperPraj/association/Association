@@ -3,7 +3,7 @@
 - a class have an entity ref
 - loosely coupled
 
-association - relation between two separate classes which establishes thro their objects
+association - relation between two separate classes which establishes throw their objects
 Two forms of association
 1. Composition - strong bonding
 2. Aggregation - weak bonding
