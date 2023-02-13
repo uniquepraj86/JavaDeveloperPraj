@@ -1,8 +1,12 @@
 package controlflowstmt;
 
+import java.util.Scanner;
+
 public class While {
     public static void main(String[] args) {
-        int no=54321,rem,rev=0;
+        int no,rem,rev=0;
+        Scanner sc = new Scanner(System.in);
+        no = sc.nextInt();
         while (no!=0)
         {
             rem=no%10;
