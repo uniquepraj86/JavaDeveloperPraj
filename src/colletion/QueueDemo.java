@@ -15,6 +15,7 @@ public class QueueDemo {
         System.out.println(numbers);
         System.out.println(numbers.remove());
         numbers.offer(60);
+
         System.out.println(numbers);
         System.out.println(numbers.peek());
         System.out.println(numbers.poll());
