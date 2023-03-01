@@ -13,11 +13,12 @@ public class linkedList {
             fruits.add("Grapes");
             fruits.add("Pineapple");
             fruits.add("Grapes");
-            System.out.println(fruits);
-            fruits.addFirst("Banana");
-            System.out.println(fruits);
-            fruits.addLast("Chikoo");
-            System.out.println(fruits);
+//            System.out.println(fruits);
+//            fruits.addFirst("Banana");
+//            System.out.println(fruits);
+//            fruits.addLast("Chikoo");
+//            System.out.println(fruits);
+
             Iterator iterator = fruits.iterator();
             while (iterator.hasNext()) {
                 System.out.print(iterator.next() + " ");
@@ -27,11 +28,11 @@ public class linkedList {
             while (descIterator.hasNext()) {
                 System.out.print(descIterator.next() + " ");
             }
-            System.out.println(fruits.offer("Watermelon"));
-            System.out.println(fruits);
-            System.out.println(fruits.peek());
-            System.out.println(fruits.peekFirst());
-            System.out.println(fruits.peekLast());
+//            System.out.println(fruits.offer("Watermelon"));
+//            System.out.println(fruits);
+//            System.out.println(fruits.peek());
+//            System.out.println(fruits.peekFirst());
+//            System.out.println(fruits.peekLast());
         }
 
     }
